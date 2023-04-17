@@ -68,6 +68,12 @@ Processes a single frame of the input video and detects faces. This method is ca
 - Deep Learning
 - Computer Vision
 - Object Detection
+- Image Processing
+- Video Processing
+- Convolutional neural networks (CNN)
+- Face detection
+- Caffe framework
+
 
 ## Authors
 - [Srikanth Elkoori Ghantala Karnam](https://www.github.com/S-EGK)
