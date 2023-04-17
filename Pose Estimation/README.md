@@ -33,11 +33,11 @@ python movenet_multipose_demo.py
 - Two functions are defined to draw the keypoints and edges of the pose skeleton on the input image using OpenCV.
 - The 'loop_through_people' function loops through each person detected in the input frame and renders the skeleton and keypoints for each person using the draw_connections and draw_keypoints functions.
 - The 'cap' variable reads frames from the default camera using OpenCV and performs the following steps for each frame:
--- Resizes the frame and pads it to a fixed size for input to the model.
--- Passes the resized frame through the Movenet model to get the pose estimation results.
--- Calls the 'loop_through_people' function to render the poses on the frame.
--- Displays the resulting frame in a window using OpenCV.
--- Waits for a key press and breaks the loop if the key 'q' is pressed.
+  - Resizes the frame and pads it to a fixed size for input to the model.
+  - Passes the resized frame through the Movenet model to get the pose estimation results.
+  - Calls the 'loop_through_people' function to render the poses on the frame.
+  - Displays the resulting frame in a window using OpenCV.
+  - Waits for a key press and breaks the loop if the key 'q' is pressed.
 
 ## Tech Stack
 
